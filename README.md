@@ -14,7 +14,7 @@ An example of running this image for a single AWS cli command (listing your s3 b
 
 `docker  run -v ~/.aws:/home/vizuri/.aws  vizuri/aws-cli s3 ls`
 
-If you want to enter the shell when using image do this:
+If you want to enter the shell when using this image do this:
 
 `docker  run -it -v ~/.aws:/home/vizuri/.aws --entrypoint=bash  vizuri/aws-cli`
 
