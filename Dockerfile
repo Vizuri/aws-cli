@@ -3,10 +3,9 @@ MAINTAINER Isaac Christoffersen <ichristoffersen@vizuri.com>
 
 USER root
 
-RUN pip install --upgrade \
+RUN pip --no-cache-dir install --upgrade \
       awscli \
       boto \
-      pip \
       pysphere \
       requests \
       toml && \
